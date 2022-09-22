@@ -1,2 +1,2 @@
-out: main.c
-	gcc main.c -lm -o out
+out: main.c gx.c fx.c
+	gcc main.c gx.c fx.c -o out -lm
